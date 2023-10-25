@@ -6,6 +6,27 @@ body {
 
 
 header {
-    background-color: #f8f9fa;
-    height: 4.375rem;
+   
 }
+
+
+
+/* contenitore immagine  */
+.cont-immagine {
+    width: 3.125rem;
+    overflow: hidden;
+}
+
+.cont-immagine img {
+    max-width: 100%;
+    height: auto;
+}
+/* /contenitore immagine  */
+
+
+/* contenitore icona  */
+.cont-icona {
+    width: 3.125rem;
+
+}
+/* /contenitore icona  */
