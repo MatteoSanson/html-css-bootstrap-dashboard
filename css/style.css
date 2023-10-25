@@ -9,6 +9,10 @@ header {
    height: 4.375rem;
 }
 
+main {
+    padding-top: 4.375rem;
+}
+
 
 
 /* contenitore immagine  */
@@ -37,7 +41,6 @@ header {
 
 /* contenitore icona  */
 .cont-icona {
-    width: 3.125rem;
-
+    width: 1.5625rem;
 }
 /* /contenitore icona  */
