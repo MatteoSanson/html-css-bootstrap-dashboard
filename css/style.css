@@ -21,6 +21,17 @@ header {
     max-width: 100%;
     height: auto;
 }
+
+
+
+.cont-immaginegrande {
+    width: 9.375rem;
+}
+
+.cont-immaginegrande img {
+    max-width: 100%;
+    height: auto;
+}
 /* /contenitore immagine  */
 
 
