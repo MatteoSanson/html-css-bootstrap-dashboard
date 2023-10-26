@@ -44,9 +44,9 @@ header {
 /* finestra grande  */
 
 /* topbar azzurra  */
-.top-azzurra {
+/* .top-azzurra {
     height: 16.25rem;
-}
+} */
 /* /topbar azzurra  */
 
 
@@ -68,7 +68,7 @@ header {
 
 
 /* responsive finestra grande top azzurra  */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .top-azzurra {
         height: 8.4375rem;
     }
@@ -79,5 +79,5 @@ header {
     .top-azzurra {
         height: 7.8125rem;
     }
-}
+} */
 /* /responsive finestra grande top azzurra  */
