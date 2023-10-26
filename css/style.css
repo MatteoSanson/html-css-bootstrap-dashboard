@@ -16,10 +16,34 @@ header {
 }
 
 .mio-logo-small {
-    width: 50px;
+    width: 2.1875rem;
 }
 
-.mia-search > * {
-    background-color: yellow;
+.mia-icona-input > * {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
 }
 /* /header e navbar  */
+
+
+
+/* sidebar sinistra blu  */
+.mia-sidebar {
+    width: 4.0625rem;
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
+}
+/* /sidebar sinistra blu  */
+
+
+
+
+
+
+/* responsive sidebar sinistra  */
+@media (min-width: 992px) {
+    .mia-sidebar {
+        width: 9.375rem;
+    }
+}
+/* /responsive sidebar sinistra  */
