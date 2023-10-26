@@ -22,73 +22,54 @@
 </head>
 <body>
     <!-- header  -->
-    <header class="fixed-top">
-        
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <a href="#" class="navbar-brand d-none d-lg-block">
-                <div class="cont-immaginegrande">
-                    <img src="img/logo.svg" alt="Large Logo">
+    <header class="d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row bg-white align-items-center">
+                <!-- logo  -->
+                <div class="col-auto">
+                    <img src="img/mobile-logo.png" alt="boolean logo" class="mio-logo-small d-lg-none">
+                    <img src="img/logo.svg" alt="boolean logo" class="d-none d-lg-block">
                 </div>
-            </a>
-        
-            <a href="#" class="navbar-brand d-lg-none">
-                <div class="cont-immagine">
-                    <img src="img/mobile-logo.png" alt="Boolean logo">
-                </div>
-            </a>
-        
-            <form class="container d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
-        
+                <!-- /logo  -->
 
-            <div class="d-none d-lg-flex text-center">
-                <a href="#" class="link-secondary link-offset-2 link-underline-opacity-100-hover">
-                    <div class="cont-icona">
-                        <i class="fa-solid fa-list"></i>
+                <!-- navbar search  -->
+                <div class="col mia-search">
+                    <div class="input-group mia-icona-input">
+                        <span class="input-group-text p-2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-control ps-0 shadow-none" placeholder="Prova a cercare: Lezioni di Lavarel" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-                </a>
-    
-                <a href="#" class="link-secondary link-offset-2 link-underline-opacity-100-hover">
-                    <div class="cont-icona">
-                        <i class="fa-solid fa-circle-question"></i>
-                    </div>
-                </a>
-    
-                <a href="#" class="link-secondary link-offset-2 link-underline-opacity-100-hover">
-                    <div class="cont-icona">
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                    </div>
-                </a>
+                </div>
+                <!-- /navbar search  -->
+
+                <!-- icone menu destra  -->
+                <div class="col-auto">
+                    <ul class="d-flex align-items-center list-unstyled gap-3 m-0">
+                        <li class="d-none d-lg-block"><a href="#" class="link-secondary link-offset-2 link-underline-opacity-100-hover"><i class="fa-solid fa-list"></i></a></li>
+
+                        <li class="d-none d-lg-block"><a href="#" class="link-secondary link-offset-2 link-underline-opacity-100-hover"><i class="fa-solid fa-circle-question"></i></a></li>
+
+                        <li class="d-none d-lg-block"><a href="#" class="link-secondary link-offset-2 link-underline-opacity-100-hover"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+
+                        <li>
+                            <!-- dropdown con campanella  -->
+                            <div class="dropdown">
+                                <a href="#" class="link-warning link-offset-2 link-underline-opacity-100-hover" id="bellDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-bell"></i></a>
+                        
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="bellDropdown">
+                                    <a class="dropdown-item" href="#">Profilo</a>
+                                    <a class="dropdown-item" href="#">Fatturazione</a>
+                                    <a class="dropdown-item" href="#">Logout</a>
+                                </div>
+                            </div>
+                            <!-- /dropdown con campanella  -->
+                        </li>
+                    </ul>
+                </div>
+                <!-- /icone menu destra  -->
             </div>
-
-
-            <div class="d-flex ml-auto text-center">
-                <div class="dropdown">
-                    <a href="#" class="link-warning link-offset-2 link-underline-opacity-100-hover" id="bellDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <div class="cont-icona">
-                            <i class="fa-solid fa-bell"></i>
-                        </div>
-                    </a>
-            
-                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="bellDropdown">
-                        <a class="dropdown-item" href="#">Profilo</a>
-                        <a class="dropdown-item" href="#">Fatturazione</a>
-                        <a class="dropdown-item" href="#">Logout</a>
-                    </div>
-                </div>
-            </div>
-    
-        </nav>
-
+        </div>
     </header>
     <!-- /header  -->
-
-    <!-- main  -->
-    <main>
-
-    </main>
-    <!-- /main  -->
 
     <!-- bootstrap js  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
