@@ -135,7 +135,7 @@
         </div>
         <!-- /sidebar sinistra  --> 
 
-
+        <!-- finestra grande sotto header a fianco sidebar  -->
         <div class="flex-grow-1">
             <div class="top-azzurra container-fluid bg-primary text-white d-flex flex-column flex-nowrap">
                 <div class="row">
@@ -148,7 +148,7 @@
                                 </button>
                                   
                                 <!-- offcanvas form  -->
-                                <div class="offcanvas offcanvas-start offcanvas-md-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                                <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                                     <div class="offcanvas-header">
                                       <h5 class="offcanvas-title" id="staticBackdropLabel">Inserisci un nuovo studente</h5>
                                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -156,43 +156,55 @@
                                     <div class="offcanvas-body">
                                     
                                         <form>
-                                            <div class="mb-3">
-                                              <label for="exampleInputName" class="form-label">Name</label>
-                                              <input type="text" class="form-control" id="exampleInputName" placeholder="Nome">
-                                            </div>
-
-                                            <div class="mb-3">
-                                                <label for="exampleInputSurname" class="form-label">Cognome</label>
-                                                <input type="text" class="form-control" id="exampleInputSurname" placeholder="Cognome">
-                                            </div>
-
-                                            <div class="mb-3">
-                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                                <div class="input-group flex-nowrap">
-                                                    <span class="input-group-text" id="addon-wrapping">@</span>
-                                                    <input type="text" class="form-control" placeholder="Email Address" aria-label="Email" aria-describedby="addon-wrapping">
+                                            <div class="row">
+                                                <div class="col-12 col-md-6">
+                                                    <div class="mb-3">
+                                                        <label for="exampleInputName" class="form-label">Name</label>
+                                                        <input type="text" class="form-control" id="exampleInputName" placeholder="Nome">
+                                                    </div>
+                                                </div>
+      
+                                                <div class="col-12 col-md-6">
+                                                    <div class="mb-3">
+                                                        <label for="exampleInputSurname" class="form-label">Cognome</label>
+                                                        <input type="text" class="form-control" id="exampleInputSurname" placeholder="Cognome">
+                                                    </div>
+                                                </div>
+      
+                                                <div class="col-12 col-md-6">
+                                                    <div class="mb-3">
+                                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                        <div class="input-group flex-nowrap">
+                                                            <span class="input-group-text" id="addon-wrapping">@</span>
+                                                            <input type="text" class="form-control" placeholder="Email Address" aria-label="Email" aria-describedby="addon-wrapping">
+                                                        </div>
+                                                    </div>
+                                                </div>
+      
+                                                <div class="col-12 col-md-6">
+                                                    <div class="mb-3">
+                                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                                    </div>
+                                                </div>
+      
+                                                <div class="col-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleIndirizzo" class="form-label">Indirizzo</label>
+                                                        <input type="text" class="form-control" id="exampleIndirizo" placeholder="Indirizzo">
+                                                    </div>
                                                 </div>
                                             </div>
 
-                                            <div class="mb-3">
-                                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword1">
-                                              </div>
-
-                                            <div class="mb-3">
-                                                <label for="exampleIndirizzo" class="form-label">Indirizzo</label>
-                                                <input type="text" class="form-control" id="exampleIndirizo" placeholder="Indirizzo">
-                                            </div>
-
                                             <div class="row">
-                                                <div class="col-5">
+                                                <div class="col-12 col-md-5">
                                                     <div class="mb-3">
                                                         <label for="examplecitta" class="form-label">Città</label>
                                                         <input type="text" class="form-control" id="examplecitta" placeholder="Città">
                                                     </div>
                                                 </div>
 
-                                                <div class="col-4">
+                                                <div class="col-12 col-md-4">
                                                     <div class="mb-3">
                                                         <label for="exampleStato" class="form-label">Stato</label>
                                                         <select class="form-select" id="inputGroupSelect01">
@@ -204,7 +216,7 @@
                                                       </div>
                                                 </div>
 
-                                                <div class="col-3">
+                                                <div class="col-12 col-md-3">
                                                     <div class="mb-3">
                                                         <label for="exampleCAP" class="form-label">CAP</label>
                                                         <input type="text" class="form-control" id="exampleCAP" placeholder="CAP">
