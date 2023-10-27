@@ -66,7 +66,7 @@ h3 {
 /* responsive sidebar sinistra  */
 @media (min-width: 992px) {
     .mia-sidebar {
-        width: 9.375rem;
+        min-width: 9.375rem;
     }
 
 }
