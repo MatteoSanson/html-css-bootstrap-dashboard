@@ -32,14 +32,22 @@ header {
     width: 4.0625rem;
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
+    display: fixed;
+    left: 0;
+    bottom: 0;
 }
 /* /sidebar sinistra blu  */
 
 
 
 /* finestra grande  */
+.corpo-card {
+    background-color: #f8f9fa;
+}
 
-
+h3 {
+    margin: 0;
+}
 /* /finestra grande  */
 
 
