@@ -48,6 +48,16 @@ header {
 h3 {
     margin: 0;
 }
+
+
+.cont-immagine {
+    width: 1.5625rem;
+    height: 1.5625rem;
+}
+
+.cont-immagine img {
+    width: 100%;
+}
 /* /finestra grande  */
 
 
