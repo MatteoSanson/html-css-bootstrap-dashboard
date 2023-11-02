@@ -87,6 +87,11 @@ h3 {
 .brdcrmbs {
     width: 80%;
 }
+
+.hvr_classe:hover > * {
+    background-color: rgba(64, 64, 64, 0.4);
+    filter: brightness(1.2);
+}
 /* /finestra grande  */
 
 
