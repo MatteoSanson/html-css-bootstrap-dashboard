@@ -36,6 +36,11 @@ header {
     left: 0;
     bottom: 0;
 }
+
+.hvr_nv:hover {
+    background-color: rgba(240, 240, 240, 0.4);
+    filter: brightness(1.2);
+}
 /* /sidebar sinistra blu  */
 
 
