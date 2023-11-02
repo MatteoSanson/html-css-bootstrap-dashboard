@@ -63,6 +63,25 @@ h3 {
 .font_size_but {
     font-size: 14px;
 }
+
+
+.butt_scuro {
+    background-color: #165bba;
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: white;
+    padding: 0 .125rem 0 .125rem;
+}
+
+.gringo {
+    width: 100%;
+}
+
+.brdcrmbs {
+    width: 80%;
+}
 /* /finestra grande  */
 
 

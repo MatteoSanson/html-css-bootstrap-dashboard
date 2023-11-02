@@ -144,7 +144,7 @@
             <!-- top-bar sfondo azzurro sotto header  -->
             <div class="top-azzurra container-fluid bg-primary text-white d-flex flex-column flex-nowrap">
                 <div class="row">
-                    <div class="col-12 col-md-4 order-1 order-md-3 py-3">
+                    <div class="col-12 col-md-3 order-1 order-md-3 py-3">
                         <div class="row align-items-center">
                             <!-- nuovo studente  -->
                             <div class="col-4 col-md-6">Nuovo studente</div>
@@ -254,7 +254,7 @@
 
 
                     <!-- boolean breadcrumb  -->
-                    <div class="col-12 col-md-4 order-2 order-md-1 py-3">
+                    <div class="col-12 col-md-5 order-2 order-md-1 py-3">
                         <div class="row align-items-center">
                             <div class="col-3 col-md-5">
                                 <h3>
@@ -263,17 +263,34 @@
                             </div>
 
                             <div class="col-3 col-md-5">
-                                Piano blaze
+                                <span class="badge rounded-pill text-white butt_scuro">Piano Blaze</span>
                             </div>
                         </div>
 
                         <div class="row">
-                            <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                  <li class="breadcrumb-item active" aria-current="page">3 app</li>
-                                  <li class="breadcrumb-item active d-lg-none" aria-current="page"><i class="fa-solid fa-plus"></i></li>
-                                  <li class="breadcrumb-item active d-none d-lg-block" aria-current="page">3 app</li>
-                                  <li class="breadcrumb-item active d-none d-lg-block" aria-current="page">3 app</li>
+                            <nav class="pe-0"; style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
+                                <ol class="breadcrumb gringo">
+                                  <li class="breadcrumb-item active p-0" aria-current="page">
+                                    <span class="badge rounded-pill text-white butt_scuro">3 app</span>
+                                  </li>
+                                  <li class="breadcrumb-item active p-0 brdcrmbs" aria-current="page">
+                                    <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item active d-lg-none p-0" aria-current="page">
+                                                <span class="badge rounded-pill text-white butt_scuro"><i class="fa-solid fa-plus"></i></li></span>
+                                            <li class="breadcrumb-item active d-none d-lg-block p-0" aria-current="page">
+                                                <span class="badge rounded-pill text-white butt_scuro">Boolean mobile app</span>
+                                            </li>
+                                            <li class="breadcrumb-item active d-none d-lg-block p-0" aria-current="page">
+                                                <span class="badge rounded-pill text-white butt_scuro">Boolean web app</span>
+                                            </li>
+                                            <li class="breadcrumb-item active d-none d-lg-block p-0" aria-current="page">
+                                                <span class="badge rounded-pill text-white butt_scuro">Boolean</span>
+                                            </li>
+                                        </ol>
+                                    </nav>
+                                  </li>
+                                 
                                 </ol>
                             </nav>
                         </div>
@@ -351,6 +368,8 @@
                                                     <button type="button" class="btn btn-light btn-outline-secondary">
                                                         <i class="fa-solid fa-trash"></i>
                                                     </button>
+                                                    <!-- <i class="fa-solid fa-pencil"></i>
+                                                    <i class="fa-solid fa-trash"></i> -->
                                                 </td>
                                               </tr>
 
